@@ -8,11 +8,13 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 /**
  * Spring Boot Application class
  */
 @Slf4j
+@EnableAspectJAutoProxy
 @SpringBootApplication
 public class Application {
 
